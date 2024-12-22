@@ -3,32 +3,6 @@
 ## Overview
 This project is a Flask API that provides user authentication and management features using a MongoDB database. It includes endpoints for user login, user creation, retrieving user information, deleting a user, and a password recovery feature.
 
-## Project Structure
-```
-flask-api-project
-├── app
-│   ├── __init__.py
-│   ├── auth
-│   │   ├── __init__.py
-│   │   ├── routes.py
-│   │   └── utils.py
-│   ├── models
-│   │   ├── __init__.py
-│   │   └── user.py
-│   ├── routes
-│   │   ├── __init__.py
-│   │   └── user_routes.py
-│   ├── services
-│   │   ├── __init__.py
-│   │   └── user_service.py
-│   └── utils
-│       ├── __init__.py
-│       └── db.py
-├── config.py
-├── requirements.txt
-└── README.md
-```
-
 ## Setup Instructions
 1. **Clone the repository:**
    ```
